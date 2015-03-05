@@ -3,4 +3,9 @@ language: python
 python: 
  - "3.3"
 
-script: unittest analyser/text_analyzer.py
+script: 
+ - nosetests analyser/text_analyzer.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
+
+notifications:
+  email:
+   - amanda@alertacall.com
