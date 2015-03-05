@@ -29,7 +29,7 @@ class TextAnalysisTests(unittest.TestCase):
 
     def test_line_count(self):
         """Check that line count is correct."""
-        self.assertEquals(analyser.AnalyseText.AnalyseText.analyse_text(self.filename)[0], 4)
+        self.assertEquals(analyser.AnalyseText.AnalyseText.analyse_text(self.filename)[0], 3)
 
     def test_character_count(self):
         """Check that character count is correct."""
