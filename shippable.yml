@@ -10,4 +10,4 @@ notifications:
   email:
    - amanda@alertacall.com
 
-commit_container: peweke/peweke1
+commit_container: peweke/peweke2
