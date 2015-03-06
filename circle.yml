@@ -1,8 +1,9 @@
 machine:
  python: 
-  - "3.3"
+   version: 3.3
 
 test: 
- - nosetests analyser/text_analyzer.py 
+  override:  
+   - analyser/text_analyzer.py 
 
 
