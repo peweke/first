@@ -1,0 +1,12 @@
+language: python
+
+python: 
+ - "3.3"
+
+script: 
+ - nosetests analyser/text_analyzer.py 
+
+notifications:
+  email:
+   - amanda@alertacall.com
+
